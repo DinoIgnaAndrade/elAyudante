@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    gap: 1rem;
+    padding: 0rem 5rem;
+
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.2rem;
+    margin-right: auto;
+
+    .logo {
+        width: 80px;
+        height: auto;
+        border-radius: 3000px;
+    }
+
+    .logoTitle{
+        color:rgb(0, 0, 0);
+        font-size: 2rem;
+        font-family: var(--primary-font) ;
+        transition: 1s;
+    }
+    .logoTitle:hover{
+        transition: 0.2s;
+        color: rgb(0, 125, 160);
+    }
+}
+
+.linksContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.2rem;
+    gap: 3rem;
+
+    .link{
+        color: black;
+        font-family: var(--primary-font);
+        font-weight: bold;
+        transition: 1s;
+    }
+    .link:hover{
+        color: rgb(0, 125, 160);
+        transition: 0.2s;
+    }
+}
