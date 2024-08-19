@@ -12,8 +12,8 @@ const Header = (props: Props) => {
     <header className={styles.container}>
       <Template>
         <h1 className={styles.title}>Instalación y Reparación de Aires Acondicionados</h1>
-        <p className={styles.parragraph}>"Nos especializamos en reparar e instalar aires acondicionados para que tu hogar esté siempre fresco y agradable.
-          Presumimos de ser un equipo confiable y rápido, listo para trabajar."</p>
+        <p className={styles.parragraph}>Nos especializamos en reparar e instalar aires acondicionados para que tu hogar esté siempre fresco y agradable.
+          Presumimos de ser un equipo confiable y rápido, listo para trabajar.</p>
       </Template>
     </header>
 
