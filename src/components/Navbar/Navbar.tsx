@@ -21,6 +21,7 @@ const Navbar = (props: Props) => {
 
                 <a className={styles.link} href="#contact">Contacto</a>
                 <a className={styles.link} href="#services">Servicios</a>
+                <a className={styles.link} href="#map">Donde Estamos</a>
                 <a className={styles.link} href="#presentation">Conocenos</a>
 
             </div>

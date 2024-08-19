@@ -1,0 +1,63 @@
+.background{
+    background: rgb(0, 125, 160);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    .icon{
+        color: white;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        width: 200px;
+        height: 200px;
+        margin-left: 3rem;
+    }
+
+    .subcontainer{
+        color: white;
+        display: flex;
+        gap:1rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .link{
+        color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 3rem;
+        gap:1rem;
+    }
+}
+
+.contactIcon{
+    color: white;
+    animation: pulse 5s infinite;
+    transition: 0.5s;
+}
+.contactIcon:hover{
+    animation: none;
+    color: #25D366;
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+@keyframes pulse {
+    0% {
+        color: white;
+    }
+    50% {
+        color: #25D366;
+    }
+    100% {
+        color: white;
+    }
+}

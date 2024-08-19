@@ -1,0 +1,61 @@
+.background {
+    background: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem 2rem;
+
+    color: black;
+
+}
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background: rgb(0, 125, 160);
+    border-style: 20px;
+}
+
+.container p {
+    text-align: center;
+    width: 80%;
+    font-size: 1rem;
+}
+
+.servicesContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    color: black;
+    animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        color: black;
+    }
+
+    50% {
+        color: rgb(0, 125, 160);
+    }
+
+    100% {
+        color: black;
+    }
+}

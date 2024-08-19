@@ -4,7 +4,7 @@
     justify-content: center;
     background-color: rgb(255, 255, 255);
     gap: 1rem;
-    padding: 0rem 5rem;
+    padding: 0rem 2rem;
 
 }
 
@@ -13,18 +13,19 @@
     flex-direction: row;
     align-items: center;
     gap: 1rem;
-    margin-right: auto;
+    margin-left: auto;
+    padding: 0.1rem;
 
     .logo {
-        width: 70px;
+        width: 60px;
         height: auto;
         border-radius: 3000px;
     }
 
     .logoTitle{
         color:rgb(0, 0, 0);
-        font-size: 1.6rem;
-        font-family: var(--primary-font) ;
+        font-size: 1.2rem;
+        font-family:'Courier New', Courier, monospace ;
         transition: 1s;
     }
     .logoTitle:hover{
