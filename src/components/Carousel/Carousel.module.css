@@ -47,3 +47,34 @@
 .arrow:last-of-type {
   right: 5px;
 }
+
+@media (max-width: 768px) {
+  .arrow {
+    padding: 8px; /* Menor padding en dispositivos más pequeños */
+    font-size: 0.9rem; /* Tamaño de fuente reducido */
+  }
+
+  .carouselInner {
+    transition: transform 0.4s ease-in-out; /* Transición un poco más rápida */
+  }
+}
+
+/* Estilos para dispositivos muy pequeños */
+@media (max-width: 480px) {
+  .arrow {
+    padding: 5px; /* Aumentar el área de clic en pantallas pequeñas */
+    font-size: 0.8rem; /* Tamaño de fuente aún más reducido */
+  }
+
+  .carousel {
+    height: 200px; /* Altura fija para pantallas pequeñas */
+  }
+
+  .carouselInner {
+    transition: transform 0.3s ease-in-out; /* Transición más rápida */
+  }
+
+  .page {
+    flex: 1 0 100%; /* Asegura que cada página ocupe el ancho completo */
+  }
+}

@@ -61,3 +61,50 @@
 }
 
 
+@media (max-width: 768px) {
+    .container {
+        height: auto; /* Permite que la altura se ajuste automáticamente */
+        padding: 20px; /* Agrega padding */
+    }
+    
+    .title {
+        margin: 0px 20px; /* Ajusta el margen */
+    }
+
+    .parragraph {
+        width: auto; /* Ancho automático */
+        margin: 10px 20px; /* Ajusta el margen */
+        font-size: 1.2rem; /* Reduce el tamaño de fuente */
+    }
+}
+
+@media (max-width: 768px) {
+    .container2 {
+        height: auto; /* Permite que la altura se ajuste automáticamente */
+        padding: 20px; /* Agrega padding */
+    }
+
+    .title2 {
+        margin-right: 20px; /* Ajusta el margen */
+    }
+
+    .parragraph2 {
+        width: auto; /* Ancho automático */
+        margin-right: 20px; /* Ajusta el margen */
+        font-size: 1.2rem; /* Reduce el tamaño de fuente */
+    }
+}
+
+/* Estilos para dispositivos muy pequeños */
+@media (max-width: 480px) {
+    .title, .title2 {
+        font-size: 1.2rem; /* Reduce el tamaño de fuente */
+        margin: 0; /* Sin márgenes */
+    }
+
+    .parragraph, .parragraph2 {
+        font-size: 0.8rem; /* Reduce aún más el tamaño de fuente */
+        padding: 8px; /* Ajusta el padding */
+        margin: 5px; /* Ajusta el margen */
+    }
+}

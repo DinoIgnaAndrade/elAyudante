@@ -59,3 +59,38 @@
         color: black;
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 2rem 1rem; /* Reduce el padding */
+    }
+
+    .servicesContainer {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .divider {
+        width: 80%; /* Hace el divisor más amplio en pantallas pequeñas */
+    }
+
+    .container p {
+        width: 90%; /* Aumenta el ancho del párrafo */
+        font-size: 0.9rem; /* Reduce el tamaño de fuente */
+    }
+}
+
+/* Estilos para dispositivos muy pequeños */
+@media (max-width: 480px) {
+    .servicesContainer {
+        margin-top: 2rem; /* Reduce el margen superior */
+    }
+
+    .service {
+        gap: 5px; /* Reduce el espacio entre los elementos del servicio */
+    }
+
+    .icon {
+        font-size: 1.5rem; /* Reduce el tamaño del icono */
+    }
+}

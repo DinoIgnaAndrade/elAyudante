@@ -51,3 +51,45 @@
         transition: 0.2s;
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos */
+        padding: 1rem; /* Reduce el padding */
+    }
+
+    .logoContainer {
+        margin-left: 0; /* Elimina el margen en la izquierda */
+    }
+
+    .linksContainer {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        gap: 1rem; /* Reduce el espacio entre los enlaces */
+    }
+
+    .link {
+        font-size: 1rem; /* Reduce el tamaño de fuente en pantallas pequeñas */
+    }
+}
+
+/* Estilos para dispositivos muy pequeños */
+@media (max-width: 480px) {
+    .logoContainer {
+        .logo {
+            width: 50px; /* Reduce el tamaño del logo */
+        }
+
+        .logoTitle {
+            font-size: 1rem; /* Reduce el tamaño de la fuente del título */
+        }
+    }
+
+    .linksContainer {
+        gap: 0.5rem; /* Reduce aún más el espacio entre los enlaces */
+    }
+
+    .link {
+        font-size: 0.9rem; /* Reduce el tamaño de fuente en dispositivos muy pequeños */
+    }
+}

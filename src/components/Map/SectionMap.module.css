@@ -27,3 +27,33 @@
     border-radius: 40px;
     overflow: hidden;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .info {
+        padding: 1rem; /* Reduce el padding */
+        gap: 0.5rem; /* Reduce el espacio entre elementos */
+        width: 90%; /* Aumenta el ancho en dispositivos pequeños */
+    }
+
+    .map {
+        width: 90%; /* Aumenta el ancho del mapa */
+        height: 300px; /* Establece una altura fija para el mapa */
+    }
+}
+
+/* Estilos para dispositivos muy pequeños */
+@media (max-width: 480px) {
+    .info {
+        min-width: 200px; /* Reduce el ancho mínimo */
+        font-size: 0.9rem; /* Reduce el tamaño de fuente */
+    }
+
+    .map {
+        height: 200px; /* Reduce la altura del mapa */
+    }
+}

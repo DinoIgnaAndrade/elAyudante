@@ -50,3 +50,19 @@
         transition: 0.2s;
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        padding: 1rem; /* Menor padding */
+    }
+    .linksContainer {
+        gap: 1rem; /* Reduce el espacio entre los enlaces */
+    }
+}
+
+@media (max-width: 480px) {
+    .logoTitle {
+        font-size: 1.4rem; /* Reducir el tamaño de fuente */
+    }
+}

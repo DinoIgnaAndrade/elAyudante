@@ -61,3 +61,37 @@
         color: white;
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        padding: 1rem; /* Menor padding */
+        gap: 1rem; /* Reduce el espacio entre los elementos */
+    }
+
+    .icon {
+        width: 150px; /* Reduce el tamaño del icono */
+        height: 150px; /* Reduce el tamaño del icono */
+        margin-left: 0; /* Elimina el margen izquierdo */
+    }
+
+    .link {
+        margin-right: 0; /* Elimina el margen derecho */
+    }
+}
+
+/* Estilos para dispositivos muy pequeños */
+@media (max-width: 480px) {
+    .icon {
+        width: 120px; /* Reduce aún más el tamaño del icono */
+        height: 120px; /* Reduce aún más el tamaño del icono */
+    }
+
+    .subcontainer {
+        font-size: 0.9rem; /* Reduce el tamaño de fuente */
+    }
+
+    .contactIcon {
+        font-size: 1.5rem; /* Reduce el tamaño del icono de contacto */
+    }
+}
