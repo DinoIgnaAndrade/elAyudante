@@ -35,3 +35,24 @@
     color: rgb(0, 125, 160);
 }
 
+
+@media (max-width: 768px) {
+    .linksContainer {
+        gap: 1.5rem; /* Reduce el espacio entre los enlaces */
+    }
+
+    .link {
+        font-size: 0.9rem; /* Reduce el tamaño de fuente en pantallas pequeñas */
+    }
+}
+
+/* Estilos para dispositivos muy pequeños */
+@media (max-width: 480px) {
+    .stickyNav {
+        height: 50px; /* Reduce la altura de la barra de navegación */
+    }
+
+    .link {
+        font-size: 0.8rem; /* Reduce aún más el tamaño de fuente */
+    }
+}
